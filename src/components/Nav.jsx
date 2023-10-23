@@ -27,6 +27,7 @@ const Nav = () => {
               ))}
 
             </ul>
+           <button className=' px-3 py-2 rounded-full bg-red-500 text-white text-center font-medium hidden lg:block'>Sign In/Sign Up</button>
             <div className='hidden max-lg:block'>
               <img src={hamburger} alt="hamburger"
               width={25} 
